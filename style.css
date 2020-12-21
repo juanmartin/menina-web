@@ -1,0 +1,47 @@
+body{
+  width: 80%;
+  margin: 0 auto;
+}
+.center{
+  display: block;
+  margin: 0 auto;
+}
+.iso {
+  margin-top: 2em;
+  width: 5vmax;
+}
+#logo {
+  width: 20vmax;
+  padding: 2em;
+  margin-bottom: 0em;
+}
+.contenido{
+  display: flex;
+  justify-content: center;
+}
+.botones{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2em 4em;
+}
+#modelViewerTop, #modelViewerBtm {
+  height: 20vh;
+}
+button {
+  padding: 1em;
+  background-color: #FF00C3;
+  color: white;
+  border-radius: 2em;
+  border-style: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#footer {
+  margin-top: 5em;
+}
